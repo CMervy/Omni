@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    max-width: 1000px;
+}
+
+.header{
+background-image: url("images/Omnifood Contents (2)/Omnifood Contents/3.jpg");
+height: 400px;
+width: 1000px;
+background-repeat: no-repeat;
+}
