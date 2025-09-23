@@ -1,12 +1,70 @@
 *{
     padding: 0px;
     margin: 0px;
-    max-width: 1000px;
+    box-sizing:border-box;
+}
+body
+{
+    
+}
+.header{
+background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+ 
+}
+.headinfo
+{
+    
+    margin-top:0px;
+    margin-right:100px;
+    font-size:30px;
+    text-align:right;
+    padding-top:60px;
+}
+.headinfo a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    
+}
+.header h1{
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 300px;
+}
+.hungry{position: absolute;
+top: 600px;
+left: 300px;
+font-size: 30px;
+text-decoration: none;
+color: white;
+background-color: orange;
+border: solid orange 1px;
+border-radius: 200px;
+padding: 8px;
+}
+.hungry:hover, .hungry:active{
+    background-color: rgb(181,79,11);
+    border-color: rgb(181,79,11);
 }
 
-.header{
-background-image: url("images/Omnifood Contents (2)/Omnifood Contents/3.jpg");
-height: 400px;
-width: 1000px;
-background-repeat: no-repeat;
+.Showmore{
+    position: absolute;
+    top: 600px;
+    left: 500px;
+    font-size: 30px;
+    text-decoration: none;
+    color: orange;
+    background-color: transparent;
+    border: solid orange 1px;
+    padding: 8px;
+    border-radius: 200px;
 }
+.Showmore:hover, .Showmore:active{
+    background-color: rgb(181,79,11);
+border-color: rgb(181,79,11);}
+
