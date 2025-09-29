@@ -3,10 +3,7 @@
     margin: 0px;
     box-sizing:border-box;
 }
-body
-{
-    
-}
+
 .header{
 background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
     url(hero.jpg);
@@ -68,3 +65,55 @@ padding: 8px;
     background-color: rgb(181,79,11);
 border-color: rgb(181,79,11);}
 
+.HIW h2{
+    display: block;
+    height: 2px;
+    width: 600px;
+    content: " ";
+    margin: auto;
+    margin-top: 100px;
+    font-size: 35px;
+}
+#dash{
+    letter-spacing: -0.08em;
+    text-align: center;
+    margin-top: 75px;
+    color:#e67e22
+}
+#Hello {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.Icons
+{
+     margin-top: 200px;
+
+    font-size:500%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+    --ionicon-stroke-width: 20px;
+
+}
+#paras{
+        margin-top: 20px;
+       
+}
+#paras h3{
+    font-size:30px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: gray;
+}
+
+.jackson{
+    margin-left: 30px;
+    margin-right: 30px;
+    gap:10px;
+    display: flex;
+    height:300px;
+    font-size:25px;
+    color: gray;
+    word-spacing: 10px;
+}
