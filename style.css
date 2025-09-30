@@ -208,3 +208,240 @@ position: absolute;
     height: 60px;
     
 }
+.location{
+    .wCHeader h2:after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: orange;
+    content: " ";
+    margin: auto;
+    margin-top: 20px;
+}
+.wCHeader{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.wCBody{
+    padding: 0px 100px;
+}
+
+
+.box{
+    padding: 20px;
+}
+
+
+.boxes{
+    display: flex;
+    max-width: 100%;
+}
+
+
+.box img{
+    width: 100%;
+    height: auto;
+}
+
+
+.sec3 a{
+    color: orange;
+}
+
+
+.workingCities{
+    background-color: white;
+    height: 500px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+
+.sec1, .sec2, .sec3{
+    padding: 3px;
+}
+
+
+.wCIcon{
+    color: orange;
+}
+
+
+.sec3 .wCIcon:hover{
+    transition: color 0.3s ease;
+    color: rgb(29, 161, 242);
+}
+
+
+}
+.reviews{
+    margin-top: 100px;
+background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(back-customers.jpg);
+    background-size: cover;
+    height: 80vh;
+    background-attachment: fixed;
+ color: white;
+}
+.reviews h2{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 120px;
+    font-weight: normal;
+}
+.reviews ul{
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+    margin-left: 200px;
+    list-style-type: none;
+    margin-top: 50px;
+
+}
+#quotes
+{
+    font-size:90px;
+    text-align: left;
+}
+#Alberto{
+position: absolute;
+top: 5500px;
+left: 260px;
+width: 75px;
+border-radius: 50px;
+
+}
+#Joana{
+position: absolute;
+top: 5500px;
+left: 980px;
+width:75px;
+border-radius: 50px;
+}
+#Milton{
+position: absolute;
+top: 5500px;
+left: 1670px;
+width:75px;
+border-radius: 50px;
+}
+.sub{
+    background-color: #f4f4f4;
+}
+.sub h2{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.threeboxes{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 600px;
+    background-color: #f4f4f4;
+}
+.threeboxes li{
+    list-style-type: none;
+}
+.premium, .pro, .starter{
+    background-color: white;
+    padding: 60px;
+}
+.Ethan
+{
+    
+    padding:0;
+    margin-right:60;
+    width:130%;
+ 
+}
+input[type=text],
+input[type=email],
+select,
+textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+textarea{
+    height: 100px
+}
+input[type=checkbox]{
+    margin: 10px 5px 10px 0px;
+}
+.sign h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+*:focus {outline: none;}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html{
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+.sign
+{
+background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.guideoftheworld.com%2Fafrica-physical-map.html&psig=AOvVaw0Srehr6-jkyu6T6l2PQVHB&ust=1759330902648000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCIjNzL_ggJADFQAAAAAdAAAAABAE");
+}
+.footer{
+    background-color: #2e302e;
+    height: 200px;
+    position: relative;
+}
+.footer nav a{
+color: gray;
+text-decoration: none;
+margin-right: 20px;
+
+}
+#nav1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+.footer a:hover{
+    color: white;
+}
+.footer p{
+    margin-top: 150px;
+    position: absolute;
+    left: 600px;
+}
+.footer #nav2 img{
+    max-width: 40px;
+    
+}
+.footer #nav2{
+    position: absolute;
+    top: 100px;
+    left: 1100px;
+}
